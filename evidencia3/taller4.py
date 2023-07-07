@@ -2,12 +2,12 @@
 # NICOLAS ESPITIA VILLAMIL
 # 06/07/2023
 
-#LA FECHA CAGADA
+#Fecha de hoy
 import datetime
 fecha = datetime.datetime.now()
 print(f"\nHoy es el dia: {fecha}")
 
-# PIDA TRES MEDIDDAS PARA UN TRIANGULO Y DIGA SI ES EQUI,ISO O ESC
+#Solicita los lados del triangulo y lo clasifica por su tipo
 
 print("\nIDENTIFICANDO TIPOS DE TRINAGULOS")
 l1 = float(input(f"Primer lado del triangulo: "))
@@ -21,7 +21,7 @@ elif l1 == l2 or l2 == l3 or l3 == l1:
 else:
     print("Es un triangulo escaleno")
 
-# PIDA UN ANIMALACHO Y DIGA SI ES OSO, PERRO, GAT SI NO F
+# Pide un animal y valida cual fue el ingresado
 
 animal = input("\nIngrese un animal: ")
 
